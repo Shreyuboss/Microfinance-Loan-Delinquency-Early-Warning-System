@@ -1,0 +1,84 @@
+{
+    "metrics": {
+        "baseline": {
+            "accuracy": 0.775,
+            "precision": 0.7636363636363637,
+            "recall": 0.5060240963855421,
+            "f1": 0.6086956521739131,
+            "roc_auc": 0.7795641163379633
+        },
+        "balanced": {
+            "accuracy": 0.7583333333333333,
+            "precision": 0.7049180327868853,
+            "recall": 0.5180722891566265,
+            "f1": 0.5972222222222222,
+            "roc_auc": 0.7736167600337656
+        }
+    },
+    "fairness": {
+        "Female_Selection_Rate": 0.7702702702702703,
+        "Male_Selection_Rate": 0.7065217391304348,
+        "Unprivileged_Group": "Male",
+        "Privileged_Group": "Female",
+        "Disparate_Impact_Ratio": 0.9172387490465294,
+        "Demographic_Parity_Difference": 0.06374853113983547
+    },
+    "feature_importance": [
+        {
+            "Feature": "Repayment_History_Ratio",
+            "Importance": 0.1734038124908691
+        },
+        {
+            "Feature": "Credit_Score",
+            "Importance": 0.16055802370020586
+        },
+        {
+            "Feature": "Debt_to_Income_Ratio",
+            "Importance": 0.13202811271841758
+        },
+        {
+            "Feature": "Loan_Amount",
+            "Importance": 0.09813368821412811
+        },
+        {
+            "Feature": "Monthly_Income",
+            "Importance": 0.08454675210586164
+        },
+        {
+            "Feature": "Savings_Balance",
+            "Importance": 0.07738388679996623
+        },
+        {
+            "Feature": "Interest_Rate",
+            "Importance": 0.07376508059826117
+        },
+        {
+            "Feature": "Age",
+            "Importance": 0.07282633582468645
+        },
+        {
+            "Feature": "Dependents",
+            "Importance": 0.05170292272943694
+        },
+        {
+            "Feature": "Loan_Term_Months",
+            "Importance": 0.031120799536479834
+        },
+        {
+            "Feature": "Gender_Male",
+            "Importance": 0.014307031156897765
+        },
+        {
+            "Feature": "Marital_Status_Married",
+            "Importance": 0.012836510861077441
+        },
+        {
+            "Feature": "Marital_Status_Single",
+            "Importance": 0.011990990231782076
+        },
+        {
+            "Feature": "Marital_Status_Widowed",
+            "Importance": 0.005396053031929736
+        }
+    ]
+}
