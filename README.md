@@ -105,8 +105,3 @@ streamlit run app/app.py
 * **Explainability Thresholds:** Explainability uses heuristic rules. Integrating SHAP/LIME will provide more granular, model-agnostic feature attributions.
 * **Decision Support Only:** This system should serve as a recommendation tool for credit officers, not as an automated decision-maker.
 
----
-
-## 8. Team Members & Contributions
-* **Student Name:** Individual Capstone Project
-* **Course:** Intermediate AIML Capstone Track
